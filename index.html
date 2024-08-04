@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo">HJ</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="mailto:jainharsh2929@gmail.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+					width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Harsh Jain
+					</h1>
+					<p>
+						I'm a Pre-Final Year Computer Science student at VIT Bhopal University with a focus on Education
+						Technology. Alongside my degree, I'm exploring the dynamic field of cybersecurity, Blockchain,
+						WEB3. My experience includes working with languages like Python, JavaScript, and Java, as well
+						as front-end.
+
+						<span>I'm
+							interested in AI topics which is why I also add things like ChatGPT into my projects these
+							days.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./Sample_Resume_Template.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:jainharsh2929@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="github.com/Harshjain10020">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/harsh-m-jain">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/hero-image.png" alt="Harsh Jain" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Python</li>
+						<li>Java</li>
+						<li>Solidity</li>
+
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>A bit about me</h3>
+					<p>
+						Hi I'm Harsh Jain, a passionate student and developer who loves to code and learn new things.
+					</p>
+					<p>
+						I'm currently working on a project that uses blockchain technology to create a decentralized
+						application.
+						Also I'm working on a project that uses AI to generate code snippets for developers.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="work-experience container">
+			<h2>
+				<small>Recent</small>
+				Work Experience
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/workplace-1.jpeg" alt="Workplace 1 - CyberWarriors Club" width="100%" />
+							<figcaption>
+								Appointed as Co lead of the Planning
+								Department at CyberWarriors Club of VIT Bhopal.
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Co Lead
+						CyberWarriors VITB</h3>
+					<div> Feb 2024 - Present</div>
+					<p>Conducted various events with 500+ visitors.</p>
+					<p>Events : CyberNex, Thugs of Cyberia and CyberNex 2.0 .</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/workplace-2.jpeg" alt="Workplace 2 - EDU4U CLUB VITB" width="100%" />
+							<figcaption>
+								Co Lead
+								EDU4U CLUB VITB
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Co Lead
+						EDU4U CLUB VITB</h3>
+					<div>Feb 2024 - May 2024</div>
+					<p>Conducted various events with 100+ visitors.</p>
+					<p>Events : Beyond Branches, Tatva Tantra </p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/workplace-3.png" alt="Workplace 3 - Chegg India | Course Hero"
+								width="100%" />
+							<figcaption>
+								Subject Matter Expert-Freelance
+							</figcaption>
+						</div>
+					</figure>
+					<h3> Chegg India | Course Hero</h3>
+					<div> Mar 2023 - Present</div>
+					<p>Solved 50+ questions that helps facilitate advice and support.</p>
+				</article>
+
+			</div>
+		</section>
+		<section class="work-experience container">
+			<h2>
+				<small>Previous</small>
+				Completed Projects
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/bento-1.png" alt="StudyKraft" width="100%" />
+							<figcaption>
+								StudyKraft
+							</figcaption>
+						</div>
+					</figure>
+					<h3>StudyKraft</h3>
+					<div> Dec 2023 – Feb 2024 </div>
+					<p>Web Development, HTML, CSS, Javascipt, Bootstrap</p>
+					<p>Developed a student dashboard for VIT Bhopal students
+						and a schedule planner for FFCS timetable
+					</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/bento-2.jpg" alt="Xperia" width="100%" />
+							<figcaption>
+								Xperia
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Xperia</h3>
+					<div>Jan 2024 – Apr 2024 </div>
+					<p>Blockchain, Python, Stream lit, Docker, Pinata, Ganache</p>
+					<p>Developed a certificate validation system using blockchain</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/bento-3.png" alt="AI Powered Personalized Vacation Planning and Exploration App
+							" width="100%" />
+							<figcaption>
+								AI Powered Personalized Vacation Planning and Exploration App
+
+
+							</figcaption>
+						</div>
+					</figure>
+					<h3> Chegg India | Course Hero</h3>
+					<div> July 2024 - Present</div>
+					<p>AI Powered Personalized Vacation Planning and Exploration App
+					</p>
+					<p>AI and Full Stack Web Development
+					</p>
+				</article>
+
+			</div>
+		</section>
+		<section class="chatbot container">
+			<h2>
+				<small>
+					Talk to me
+				</small>
+				Chatbot
+			</h2>
+			<div class="chatbot-blue">
+				<div class="chat-info">
+					<h3>Chatbot</h3>
+					<p>I've put together a chatbot here which knows all my skills, work experience and has a copy of my
+						CV/Resume. You can use it to ask questions about me .</p>
+					<p>You can also download my resume here if you want to take a look at it.
+					</p>
+					<a href="./Sample_Resume_Template.pdf" class="button black">Download Resume</a>
+				</div>
+				<div class="chat-box">
+					<div class="scroll-area">
+						<ul id="chat-log">
+							<li>
+								<span class="avatar bot">AI</span>
+								<div class="message">
+									Hi, I'm a friendly chatbot that lets you interactive with this portfolio and CV. How
+									can I help?
+								</div>
+							</li>
+							<li>
+								<span class="avatar user">User</span>
+								<div class="message">
+									I have a question to ask you about this resume
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="chat-message">
+						<input type="text" placeholder="Hey Harsh, what skills are you best at?">
+						<button class="button black">Send</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="footer-container container" style="display: flex; justify-content: center;">
+				<div>
+					<p style="font-size: small;">&copy; 2024 Harsh Jain. All rights reserved.</p>
+				</div>
+				<div class="social-links">
+					<a href="github.com/Harshjain10020">
+						<img src="./imgs/github.png" alt="GitHub" width="48" />
+					</a>
+					<a href="https://www.linkedin.com/in/harsh-m-jain">
+						<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+					</a>
+				</div>
+			</div>
+		</footer>
+	</main>
+</body>
+
+</html>
